@@ -11,7 +11,7 @@ Este projeto é uma aplicação de gerenciamento de tarefas, desenvolvida com **
 ## Estrutura do Projeto
 
 ```plaintext
-desafio-tech-lead/
+desafio/
 ├── frontend/
 │   ├── src/
 │   └── public/
@@ -30,8 +30,8 @@ desafio-tech-lead/
 ### Clonar o Repositório
 
 ```sh
-git clone https://github.com/seu-usuario/desafio-tech-lead.git
-cd desafio-tech-lead
+git clone https://github.com/ctoigo/desafio
+cd desafio
 ```
 
 ### Configuração do Backend
