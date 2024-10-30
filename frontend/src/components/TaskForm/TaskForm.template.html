@@ -1,0 +1,9 @@
+<div class="task-form">
+  <h3>Nova Tarefa</h3>
+  <form @submit.prevent="addTask">
+    <input v-model="task.title" placeholder="Título" required />
+    <textarea v-model="task.description" placeholder="Descrição"></textarea>
+    <input v-model="task.dueDate" type="date" required />
+    <button type="submit">Adicionar</button>
+  </form>
+</div>
